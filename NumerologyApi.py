@@ -190,7 +190,7 @@ def getMaturityNumber(life_path_number, expression_number):
     return maturity_number if maturity_number != 0 else 9
 
 # Example usage
-"""name = input("Enter your name: ")
+name = input("Enter your name: ")
 date_of_birth = input("Enter your date of birth (in format YYYY-MM-DD): ")
 
 expression_number = getExpressionNumber(name)
@@ -199,7 +199,7 @@ maturity_number = getMaturityNumber(life_path_number, expression_number)
 
 print(name,"has a Life Path Number of ",life_path_number)
 print(name,"has an Expression Number of ",expression_number)
-print("The Maturity Number for",name," is",maturity_number)"""
+print("The Maturity Number for",name," is",maturity_number)
 
 
 def getCornerStone(name):
